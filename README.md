@@ -1,15 +1,15 @@
-# Joystream Analytics
+# moonbeam Analytics
 
-Hosted On [https://joy.dapplooker.com](https://joy.dapplooker.com)
+Hosted On [https://moonbeam.dapplooker.com](https://moonbeam.dapplooker.com)
 
 ## Issue Details
-[https://git.joystreamstats.live/Operations/dapplooker](https://git.joystreamstats.live/Operations/dapplooker)
+[https://git.moonbeamstats.live/Operations/dapplooker](https://git.moonbeamstats.live/Operations/dapplooker)
 
-## Browse Joystream Dataset
+## Browse moonbeam Dataset
 
-[https://analytics.dapplooker.com/browse/2/schema/joystream](https://analytics.dapplooker.com/browse/2/schema/joystream)
+[https://analytics.dapplooker.com/browse/2/schema/moonbeam](https://analytics.dapplooker.com/browse/2/schema/moonbeam)
 
-## Joystream Charts & Dashboard Collection
+## moonbeam Charts & Dashboard Collection
 
  [https://analytics.dapplooker.com/collection/19](https://analytics.dapplooker.com/collection/19)
 

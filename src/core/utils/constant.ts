@@ -7,10 +7,6 @@ export class Constants {
       projectName:"Network Dashboard",
       iframeURL:"https://analytics.dapplooker.com/public/dashboard/b40e031c-42d1-43e2-84ea-97f07a149a47",
     },
-    {
-      projectName:"Provider Performance",
-      iframeURL:"https://analytics.dapplooker.com/public/dashboard/aae19f0c-5265-4de4-b691-cc19f32465f8"
-    },
   ];
   public static URLs = {
     TWITTER_ID: "dapplooker",

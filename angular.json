@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "joystream-analytics": {
+    "moonbeam-analytics": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/joystream-analytics",
+            "outputPath": "dist/moonbeam-analytics",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -75,10 +75,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "joystream-analytics:build:production"
+              "browserTarget": "moonbeam-analytics:build:production"
             },
             "development": {
-              "browserTarget": "joystream-analytics:build:development"
+              "browserTarget": "moonbeam-analytics:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +86,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "joystream-analytics:build"
+            "browserTarget": "moonbeam-analytics:build"
           }
         },
         "test": {
@@ -110,5 +110,5 @@
       }
     }
   },
-  "defaultProject": "joystream-analytics"
+  "defaultProject": "moonbeam-analytics"
 }
