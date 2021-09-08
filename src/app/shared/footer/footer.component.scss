@@ -1,0 +1,20 @@
+@import "../../../assets/scss/variables";
+@import "../../../app/utility/custom-theme/button-theme.scss";
+@import "../../../app/utility/custom-theme/footer.scss";
+.dl__button {
+  &.position {
+    position: absolute;
+    left: 410px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dl__button {
+    &.position {
+      position: absolute;
+      left: 225px;
+      top: 0px;
+    }
+  }
+}

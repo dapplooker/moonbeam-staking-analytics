@@ -1,0 +1,107 @@
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+
+    <div class="container d-flex align-items-center max-height-100">
+
+        <div class="logo me-auto">
+            <!-- <h1><a href="index.html">{{labels.logoText}}</a></h1> -->
+            <!-- <img src="../../../assets/img/3.png" /> -->
+            <a href="#">
+                <app-svg-icon class="dl-logo" name="dapplookerLogoWithText"></app-svg-icon>
+            </a>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <div class="social-links">
+                <a href="{{constantsURLs.DISCORD}}" target="_blank" class="discord">
+                    <app-svg-icon class="discord_icon" name="discordLogo"></app-svg-icon>
+                </a>
+                <a href="{{constantsURLs.SOCIAL_NETWORK_TWITTER}}" target="_blank" class="twitter">
+                    <app-svg-icon class="twitter_icon" name="twitterLogo"></app-svg-icon>
+                </a>
+                <a href="{{constantsURLs.MEDIUM_BLOG}}" target="_blank" class="medium">
+                    <app-svg-icon class="medium_icon" name="medium"></app-svg-icon>
+                </a>
+            </div>
+        </div>
+        <!-- (click)="showMenu()" [ngClass]="{'navbar-mobile': isMenuClicked === true}" -->
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+                <!-- <li *ngIf="!isUserLoggedIn"><a class="nav-link scrollto active"
+                        href="/explorer/">{{labels.headerLink1}}</a></li>
+                <li><a *ngIf="!isUserLoggedIn" class="nav-link scrollto active"
+                        href="{{analyzerUrlRef}}">{{labels.headerLink3}}</a></li> -->
+                <li><a class="nav-link scrollto active"
+                        href="https://dapplooker.com/#features"target="_blank">{{labels.headerLink11}}</a></li>
+
+                <li><a class="nav-link scrollto active"
+                        href="https://dapplooker.com/integration/" target="_blank">{{labels.headerLink2}}</a></li>
+                <li><a class="nav-link scrollto active"
+                        href="https://dapplooker.com/explorer/" target="_blank">{{labels.headerLink10}}</a></li>
+                <!-- <li *ngIf="!isUserLoggedIn"><a class="nav-link scrollto active"
+                        href="#contact">{{labels.resourceSubHeaderLink3}}</a></li> -->
+                <!-- <li><a class="nav-link scrollto" href="#contact">{{labels.headerLink5}}</a></li> -->
+                <li class="dropdown link"><a href="#"><span>{{labels.headerLink5}}</span> <i
+                            class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a class="nav-link scrollto" target="_blank"
+                                href="{{constantsURLs.MEDIUM_BLOG}}" target="_blank">{{labels.resourceSubHeaderLink1}}</a></li>
+                        <li><a class="nav-link scrollto"
+                                href="https://dapplooker.com/#contact" target="_blank">{{labels.resourceSubHeaderLink3}}</a></li>
+                        <li><a class="nav-link scrollto"
+                                href="https://dapplooker.com/faq" target="_blank">{{labels.resourceSubHeaderLink4}}</a></li>
+                        <!--  <li><a class="nav-link scrollto" target="_blank"
+                                href="{{constantsURLs.DOCS}}">{{labels.resourceSubHeaderLink2}}</a></li> -->
+                        <!-- <li><a class="nav-link scrollto" href="#contact">{{labels.resourceSubHeaderLink3}}</a></li>
+                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
+                                    class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </li>
+            </ul>
+            <!--  -->
+        </nav><!-- .navbar [ngClass]="isMenuClicked === true ? 'bi-x' : 'bi-list'" -->
+
+        <i class="bi mobile-nav-toggle bi-list" (click)="showMobileNav(mobileNav)"></i>
+        <!-- <div class=" header-social-links d-flex align-items-center">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+
+    </div> -->
+
+    </div>
+</header><!-- End Header -->
+<!-- {{isModalOpen}} -->
+
+<ng-template #mobileNav let-modal>
+    <div class="mobile-nav modal-body">
+        <ul>
+            <li><a class="nav-link scrollto active" href="https://dapplooker.com/#features" target="_blank">{{labels.headerLink11}}</a>
+            </li>
+
+            <li><a class="nav-link scrollto active"
+                    href="https://dapplooker.com/integration/" target="_blank">{{labels.headerLink2}}</a></li>
+            <li><a class="nav-link scrollto active" href="https://dapplooker.com/explorer/" target="_blank">{{labels.headerLink10}}</a>
+            </li>
+            <li class="dropdown link"><a href="#"><span>{{labels.headerLink5}}</span> <i
+                        class="bi bi-chevron-down"></i></a>
+                <ul>
+                    <li><a class="nav-link scrollto" target="_blank"
+                            href="{{constantsURLs.MEDIUM_BLOG}}" target="_blank">{{labels.resourceSubHeaderLink1}}</a></li>
+                    <li><a class="nav-link scrollto"
+                            href="https://dapplooker.com/#contact"target="_blank">{{labels.resourceSubHeaderLink3}}</a></li>
+                    <li><a class="nav-link scrollto"
+                            href="https://dapplooker.com/faq" target="_blank">{{labels.resourceSubHeaderLink4}}</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</ng-template>

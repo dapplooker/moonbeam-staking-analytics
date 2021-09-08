@@ -1,0 +1,41 @@
+@import "../../assets/scss/variables";
+@import "../../app/utility/custom-theme/button-theme.scss";
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f7f8f9;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 55px;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
+  color: #627680;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 40%;
+}
+iframe {
+  height: 100vh;
+  width: 100%;
+  border: none;
+}
+.nav-link.active,
+.nav-item.show .nav-link {
+  color: $baseColor;
+}

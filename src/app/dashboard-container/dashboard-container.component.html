@@ -1,0 +1,28 @@
+<app-header></app-header>
+<div>
+  <div class="section-title" data-aos="fade-up">
+    <!-- <h2>Joystream Dapplooker</h2> -->
+  </div>
+  <ul class="nav nav-tabs mb-4" id="myTab0" role="tablist">
+    <li class="nav-item" role="presentation" *ngFor="let dashboards of dashboardList; let i = index">
+      <button class="nav-link" [ngClass]="{'active' : i == 0}" id="tab_{{i}}" data-mdb-toggle="tab" data-mdb-target="#tab0" type="button" role="tab"
+        aria-controls="home" aria-selected="true" (click)='setIframeURL(i)'>
+        {{dashboards.projectName}}
+      </button>
+    </li>
+    <!-- <li class="nav-item" role="presentation">
+      <button class="nav-link" id="tab_1" data-mdb-toggle="tab" data-mdb-target="#tab1" type="button" role="tab"
+        aria-controls="profile" aria-selected="false" (click)='loadIframe(dashboardList[1].id)'>
+        {{dashboardList[1].projectName}}
+      </button>
+    </li> -->
+  </ul>
+  <div class="tab-content" id="myTabContent0">
+    <div class="tab-pane fade show active" id="tab0" role="tabpanel" aria-labelledby="tab_0">
+      <iframe [src]='currentIframe | iframepipe' title="Joystream Dashboard"></iframe>
+    </div>
+    <!-- <div class="tab-pane fade" id="tab1" role="tabpanel" aria-labelledby="tab_1">
+      <iframe [src]="dashboardList[1].iframeURL | iframepipe" title="Provider Performance" *ngIf="isLoaded[1]"></iframe>
+    </div> -->
+  </div>
+  <app-footer></app-footer>

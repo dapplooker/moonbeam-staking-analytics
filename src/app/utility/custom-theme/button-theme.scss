@@ -1,0 +1,60 @@
+.redirect-button {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: $baseColor;
+    color: #fff;
+    font-weight: 400;
+    outline: none;
+    border: none;
+    width: 150px;
+    position: relative;
+    padding: 15px 15px;
+    margin: 10px;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .dl__button {
+    background: #009cea;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  
+    &--link {
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 28px;
+      border-radius: 3px;
+      transition: 0.5s;
+      color: #fff;
+      background: #009cea;
+      text-decoration: none;
+  
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .redirect-button {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .redirect-button {
+      display: block;
+      width: 100%;
+    }
+  }
+  
