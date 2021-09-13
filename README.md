@@ -8,5 +8,5 @@ Hosted On [https://moonbeam.dapplooker.com](https://moonbeam.dapplooker.com)
 
 ## moonbeam Charts & Dashboard Collection
 
- [https://analytics.dapplooker.com/collection/19](https://analytics.dapplooker.com/collection/53)
+ [https://analytics.dapplooker.com/collection/53](https://analytics.dapplooker.com/collection/53)
 
