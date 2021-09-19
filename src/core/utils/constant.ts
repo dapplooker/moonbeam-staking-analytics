@@ -4,8 +4,8 @@ export class Constants {
   };
   public static projectDashboard = [
     {
-      projectName:"Network Dashboard",
-      iframeURL:"https://analytics.dapplooker.com/public/dashboard/b40e031c-42d1-43e2-84ea-97f07a149a47",
+      projectName:"STAKING DASHBOARD - COLLATOR",
+      iframeURL:"http://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
     },
   ];
   public static URLs = {
