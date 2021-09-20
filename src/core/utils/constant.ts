@@ -7,6 +7,10 @@ export class Constants {
       projectName:"STAKING DASHBOARD - COLLATOR",
       iframeURL:"https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
     },
+    {
+      projectName:"MOONRIVER STAKING - NOMINATOR",
+      iframeURL:"https://analytics.dapplooker.com/public/dashboard/aae19f0c-5265-4de4-b691-cc19f32465f8",
+    },
   ];
   public static URLs = {
     TWITTER_ID: "dapplooker",
