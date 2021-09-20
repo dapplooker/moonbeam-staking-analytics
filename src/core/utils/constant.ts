@@ -4,8 +4,14 @@ export class Constants {
   };
   public static projectDashboard = [
     {
-      projectName:"STAKING DASHBOARD - COLLATOR",
-      iframeURL:"https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
+      projectName: "STAKING DASHBOARD - COLLATOR",
+      iframeURL:
+        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
+    },
+    {
+      projectName: "MOONRIVER STAKING - NOMINATOR",
+      iframeURL:
+        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
     },
   ];
   public static URLs = {
@@ -135,6 +141,6 @@ export class Constants {
       allowedImageType: "only image(PNG, JPEG, JPG) are allowed",
       allowedAbisFileTypeMsg: "only json file allowed",
       invalidSubgraphEndpoint: "invalid Subgraph Endpoint",
-  },
-  }
+    },
+  };
 }
