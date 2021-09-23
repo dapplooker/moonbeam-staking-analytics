@@ -4,14 +4,14 @@ export class Constants {
   };
   public static projectDashboard = [
     {
-      projectName: "MOONRIVER STAKING - COLLATORS",
-      iframeURL:
-        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
-    },
-    {
       projectName: "MOONRIVER STAKING - NOMINATORS",
       iframeURL:
         "https://analytics.dapplooker.com/public/dashboard/0c080e2d-991a-4d60-b68e-3761a3b2ba45",
+    },
+    {
+      projectName: "MOONRIVER STAKING - COLLATORS",
+      iframeURL:
+        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
     },
   ];
   public static URLs = {
