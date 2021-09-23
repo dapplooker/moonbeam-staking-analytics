@@ -4,18 +4,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <title>Analyze and monitor Moonbeam network dataset</title>
   <meta name="theme-color" content="#000000">
-  <meta name="description" content="Analyze and monitor Moonbeam network dataset">
+  <meta name="description" content="Analyze and monitor Moonriver, Moonbeam network actors dataset">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Analyze and monitor Moonbeam network dataset">
+  <meta name="twitter:title" content="Analyze and monitor Moonriver, Moonbeam network actors dataset">
   <meta name="twitter:site" content="@dapplooker">
   <meta name="twitter:domain" content="https://dapplooker.com">
   <meta name="twitter:image" content="https://d2yxqfr8upg55w.cloudfront.net/assets/img/features-1.png">
 
-  <meta property="og:title" content="Dapplooker | Connect and query your smart contracts, build dashboards to visualize data and share with your community">
-  <meta property="og:description" content="Connect and query your smart contracts, build dashboards to visualize data and share with your community">
+  <meta property="og:title" content="Dapplooker | Analyze and monitor Moonriver, Moonbeam network actors dataset">
+  <meta property="og:description" content="Analyze and monitor Moonriver, Moonbeam network actors dataset">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://joy.dapplooker.com">
-  <meta property="og:site_name" content="joy.dapplooker.com">
+  <meta property="og:url" content="https://moonbeam.dapplooker.com/">
+  <meta property="og:site_name" content="moonbeam.dapplooker.com/">
   <meta property="og:image" content="https://d2yxqfr8upg55w.cloudfront.net/assets/img/features-1.png">
 
   <meta name="referrer" content="no-referrer-when-downgrade">
@@ -30,11 +30,9 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
   <!-- MDB END -->
-  <!-- Google Analytics -->
   <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
   <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
-  <!-- End Google Analytics -->
 <style>@charset "UTF-8";:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}*,:after,:before{box-sizing:border-box;}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}@media print{*,:after,:before{text-shadow:none!important;box-shadow:none!important;}@page {size:a3;}body{min-width:992px!important;}}</style><link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.css"></noscript></head>
 
 
@@ -42,6 +40,31 @@
 <body>
 
   <app-root></app-root>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197948260-1"></script> -->
+  <script>
+    var hostName = window.location.hostname;
+    var hostWithSubdomain = hostName.split(".")[1];
+    var host = "dapplooker";
+    if (hostName === host || hostWithSubdomain === host) {
+      // Checking hostname
+      var script = document.createElement("script"); // Creating a script tag
+      script.setAttribute("type", "text/javascript"); // Setting type of script
+      script.setAttribute(
+        "src",
+        "https://www.googletagmanager.com/gtag/js?id=UA-197948260-1"
+      ); // Setting src URL
+      document.head.appendChild(script); // Loading script under head
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-197948260-1");
+    }
+  </script>
+  <!-- End of Google Analytics -->
 
 <script src="runtime-es2017.js" type="module"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2017.js" type="module"></script><script src="main-es2017.js" type="module"></script><script src="main-es5.js" nomodule defer></script>
 
