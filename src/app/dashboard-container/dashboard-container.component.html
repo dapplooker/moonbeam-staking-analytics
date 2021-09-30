@@ -4,9 +4,9 @@
     <!-- <h2>moonbeam Dapplooker</h2> -->
   </div>
   <ul class="nav nav-tabs mb-4" id="myTab0" role="tablist">
-    <li class="nav-item" role="presentation" *ngFor="let dashboards of dashboardList; let i = index">
-      <button class="nav-link" [ngClass]="{'active' : i == 0}" id="tab_{{i}}" data-mdb-toggle="tab" data-mdb-target="#tab0" type="button" role="tab"
-        aria-controls="home" aria-selected="true" (click)='setIframeURL(i)'>
+    <li class="nav-item" role="presentation" *ngFor="let dashboards of dashboardList; let tabIndex = index">
+      <button class="nav-link" [ngClass]="{'active' : tabIndex == currentTab}" id="tab_{{tabIndex}}" data-mdb-toggle="tab" data-mdb-target="#tab0" type="button" role="tab"
+        aria-controls="home" aria-selected="true" (click)='setIframeURL(tabIndex)'>
         {{dashboards.projectName}}
       </button>
     </li>
@@ -17,8 +17,8 @@
       </button>
     </li> -->
   </ul>
-  <!-- <a href="?input_collator_address=0x1980E75f1b1cdAAe3b2f79664C7cb83b86A3D404">Passing in Collator</a>
-  <a href="?input_nominator_address=0x5aE279c0f7Ecb0A42ffaacB8b045f0f9F248C891">Passing in Nominator</a> -->
+  <a href="collator?input_collator_address=0x1980E75f1b1cdAAe3b2f79664C7cb83b86A3D404">Passing in Collator</a>
+  <a href="nominator?input_nominator_address=0x5aE279c0f7Ecb0A42ffaacB8b045f0f9F248C891">Passing in Nominator</a>
   <div class="tab-content" id="myTabContent0">
     <div class="tab-pane fade show active" id="tab0" role="tabpanel" aria-labelledby="tab_0">
       <iframe [src]='currentIframe | iframepipe' title="Moystream Dashboard"></iframe>
