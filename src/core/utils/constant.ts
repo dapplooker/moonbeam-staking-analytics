@@ -31,18 +31,18 @@ export class Constants {
     ABOUTUS:
       "https://docs.google.com/presentation/d/1hUxlumY1XNot8FEjDn0CXK9z-5SzWMlqvq258Dzbuq8/edit#slide=id.p",
   };
-  public static urlQuery ={
+  public static urlQuery = {
     collator: "?input_collator_address=",
     nominator: "?input_nominator_address=",
-  }
-  public static queryParamName ={
+  };
+  public static queryParamName = {
     nominator: "input_collator_address",
-    collator: "input_nominator_address"
-  }
-  public static queryRoutes={
-    collator:"/collator",
-    nominator:"/nominator"
-  }
+    collator: "input_nominator_address",
+  };
+  public static queryRoutes = {
+    collator: "/collator",
+    nominator: "/nominator",
+  };
   public static LABELS = {
     commonLables: {
       feedbackfromCustomers: "Feedback from Customers",

@@ -15,14 +15,14 @@ export class DashboardContainerComponent implements OnInit {
   collator = " ";
   nominator = " ";
   currentTab = 0;
-  currentIframe: any;
-  constructor(private activatedRoute: ActivatedRoute, private route: Router) { }
+  currentIframe = this.dashboardList[0].iframeURL;
+  constructor(private activatedRoute: ActivatedRoute, private route: Router) {}
   ngOnInit() {
     this.checkURL();
-    this.currentTab = this.keyResult(location.pathname);
+    this.currentTab = this.parseQueryParam(location.pathname);
     this.currentIframe = this.dashboardList[this.currentTab].iframeURL;
   }
-  keyResult(route: String) {
+  parseQueryParam(route: String): number {
     switch (route) {
       case this.routes.collator:
         return 0;
