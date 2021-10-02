@@ -34,7 +34,14 @@ export class Constants {
   public static urlQuery ={
     collator: "?input_collator_address=",
     nominator: "?input_nominator_address=",
-
+  }
+  public static queryParamName ={
+    nominator: "input_collator_address",
+    collator: "input_nominator_address"
+  }
+  public static queryRoutes={
+    collator:"/collator",
+    nominator:"/nominator"
   }
   public static LABELS = {
     commonLables: {
