@@ -25,10 +25,10 @@ export class DashboardContainerComponent implements OnInit {
   parseQueryParam(route: String): number {
     switch (route) {
       case this.routes.collator:
-        return 0;
+        return 1;
 
       case this.routes.nominator:
-        return 1;
+        return 0;
 
       default:
         return 0;
@@ -54,12 +54,12 @@ export class DashboardContainerComponent implements OnInit {
   }
   setIframeURL(index: number) {
     switch (index) {
-      case 0:
+      case 1:
         this.route.navigate([this.routes.collator]);
         this.currentIframe = this.dashboardList[index].iframeURL;
         break;
 
-      case 1:
+      case 0:
         this.route.navigate([this.routes.nominator]);
         this.currentIframe = this.dashboardList[index].iframeURL;
         break;
