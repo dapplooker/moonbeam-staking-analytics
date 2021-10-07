@@ -31,6 +31,10 @@ export class Constants {
     ABOUTUS:
       "https://docs.google.com/presentation/d/1hUxlumY1XNot8FEjDn0CXK9z-5SzWMlqvq258Dzbuq8/edit#slide=id.p",
   };
+  public static dashboardTabs = {
+    nominator: 0,
+    collator: 1,
+  };
   public static urlQuery = {
     collator: "?input_collator_address=",
     nominator: "?input_nominator_address=",
