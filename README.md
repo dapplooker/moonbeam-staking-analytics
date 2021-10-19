@@ -16,5 +16,5 @@ Moonriver Staking Dashboard:: [https://moonbeam.dapplooker.com](https://moonbeam
 [https://dapplooker.com/integration](https://dapplooker.com/integration)
 
 # Dashboard Screenshots
-[https://i.imgur.com/8CKEDiB.png](https://i.imgur.com/8CKEDiB.png)
-[https://i.imgur.com/8CKEDiB.png](https://i.imgur.com/8CKEDiB.png)
+![Collator Dashboard](https://i.imgur.com/HzwK2F5.jpg)
+![Nominator Dashboard](https://i.imgur.com/HzwK2F5.jpg)
