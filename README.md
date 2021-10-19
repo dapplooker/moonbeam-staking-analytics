@@ -1,18 +1,17 @@
-This Project was generated with Angular CLI version 12.1.4
-# moonriver Analytics
-Moonbeam is a new Polkadot smart contract platform that makes it easy to build natively interoperable blockchain applications.
+# Moonbeam Staking Dashboard
+Moonbeam is a Polkadot smart contract platform that makes it easy to build natively interoperable blockchain applications.
 
-Hosted On [https://moonbeam.dapplooker.com](https://moonbeam.dapplooker.com)
+Moonriver Staking Dashboard:: [https://moonbeam.dapplooker.com](https://moonbeam.dapplooker.com)
 
-# Browse moonriver Dataset
+# Browse Moonriver Dataset
 
 [https://analytics.dapplooker.com/browse/2/schema/moonriver](https://analytics.dapplooker.com/browse/2/schema/moonriver)
 
-# moonriver Charts & Dashboard Collection
+# Moonbeam Charts & Dashboard Collection
 
  [https://analytics.dapplooker.com/collection/53](https://analytics.dapplooker.com/collection/53)
 
-# Dapplooker-analytics Integration
+# Learn More About Moonbeam Integration
 
 [https://dapplooker.com/integration](https://dapplooker.com/integration)
 
