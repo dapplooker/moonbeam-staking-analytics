@@ -12,6 +12,7 @@ export class DashboardContainerComponent implements OnInit {
   queryURL = Constants.urlQuery;
   paramName = Constants.queryParamName;
   routes = Constants.queryRoutes;
+  dashboardTabs = Constants.dashboardTabs;
   collator = " ";
   nominator = " ";
   currentTab = 0;
@@ -25,10 +26,10 @@ export class DashboardContainerComponent implements OnInit {
   parseQueryParam(route: String): number {
     switch (route) {
       case this.routes.collator:
-        return 1;
+        return this.dashboardTabs.collator;
 
       case this.routes.nominator:
-        return 0;
+        return this.dashboardTabs.nominator;
 
       default:
         return 0;
@@ -54,12 +55,12 @@ export class DashboardContainerComponent implements OnInit {
   }
   setIframeURL(index: number) {
     switch (index) {
-      case 1:
+      case this.dashboardTabs.collator:
         this.route.navigate([this.routes.collator]);
         this.currentIframe = this.dashboardList[index].iframeURL;
         break;
 
-      case 0:
+      case this.dashboardTabs.nominator:
         this.route.navigate([this.routes.nominator]);
         this.currentIframe = this.dashboardList[index].iframeURL;
         break;
