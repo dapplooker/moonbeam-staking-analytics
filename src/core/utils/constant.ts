@@ -4,14 +4,14 @@ export class Constants {
   };
   public static projectDashboard = [
     {
-      projectName: "MOONRIVER STAKING - COLLATORS",
-      iframeURL:
-        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
-    },
-    {
       projectName: "MOONRIVER STAKING - NOMINATORS",
       iframeURL:
         "https://analytics.dapplooker.com/public/dashboard/0c080e2d-991a-4d60-b68e-3761a3b2ba45",
+    },
+    {
+      projectName: "MOONRIVER STAKING - COLLATORS",
+      iframeURL:
+        "https://analytics.dapplooker.com/public/dashboard/7dfc5a6e-da33-4d54-94bf-0dfa5e6843cb",
     },
   ];
   public static URLs = {
@@ -30,6 +30,22 @@ export class Constants {
     JOBS: "https://hasjob.co/dapplooker.com",
     ABOUTUS:
       "https://docs.google.com/presentation/d/1hUxlumY1XNot8FEjDn0CXK9z-5SzWMlqvq258Dzbuq8/edit#slide=id.p",
+  };
+  public static dashboardTabs = {
+    nominator: 0,
+    collator: 1,
+  };
+  public static urlQuery = {
+    collator: "?input_collator_address=",
+    nominator: "?input_nominator_address=",
+  };
+  public static queryParamName = {
+    nominator: "input_collator_address",
+    collator: "input_nominator_address",
+  };
+  public static queryRoutes = {
+    collator: "/collator",
+    nominator: "/nominator",
   };
   public static LABELS = {
     commonLables: {
