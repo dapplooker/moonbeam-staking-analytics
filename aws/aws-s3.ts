@@ -1,7 +1,7 @@
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
 const configure = {
-    s3BucketName: 'moonbeam-dashboard/dist/',
+    s3BucketName: 'dapplooker/assets/build/moonbeam-analytics/dist',
     folderPath: '../dist' // path relative script's location
 };
 const putObjects = `aws s3 cp ${configure.folderPath} s3://${configure.s3BucketName} --recursive`
