@@ -1,10 +1,3 @@
-## AWS Login Details
-- S3 Username: ```dapplooker-team-member```
-- Password : ```0s2[^(2WhJW6LWk```
-- Account ID: ```622952980673```
-- Access Key: ```AKIAZCCXEEDAQIATEFE7```
-- Secret Key: ```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```
-
 ## Development Build
 
 - ```npm run build:production```
