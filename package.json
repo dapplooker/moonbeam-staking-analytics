@@ -7,7 +7,8 @@
     "build": "ng build",
     "build:production": "rm -rf dist && ng build --configuration=production --aot --outputPath=dist --progress=true --verbose=true --output-hashing none",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build:productionWithS3Upload": "rm -rf dist && ng build --configuration=production --aot --outputPath=dist --progress=true --verbose=true --output-hashing none && cd aws/ && ts-node aws-read.ts && ts-node aws-s3.ts && cd -"
   },
   "private": true,
   "dependencies": {
